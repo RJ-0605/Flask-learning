@@ -1,0 +1,123 @@
+
+
+body{
+ 
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(144, 144, 143, 0.5)),
+                                     url("gecko.png");
+                    
+    
+
+
+}
+
+
+header{
+
+    margin-top:0px;
+    height:30px;
+    padding:12px;
+    text-align: center;
+    background-color:darkblue;   
+}
+
+
+
+
+
+
+
+header nav {
+    float:left;
+    margin-left:180px;
+    margin-top: 0px;
+    
+}
+
+ul{
+	margin-top: 3px;
+}
+
+header nav li{
+    display: inline;
+    font-size:15px;
+
+    margin-left:20px;
+    padding-bottom: 20px;
+    
+
+   
+}
+
+.active:hover{
+	color:yellow;
+}
+
+
+header nav  a  {
+    
+    
+    text-decoration: none;
+    color :rgb(255,69,0);
+
+
+}
+
+
+
+
+header > nav > a > li:first-child:hover{
+  color: none;
+  text-decoration: none;
+} 
+
+header nav a >li:not(:first-child):hover{
+  color: yellow;
+  text-decoration:underline;
+} 
+
+.clearfloataftaheader{
+    clear: left;
+} 
+
+
+
+.wrap{
+
+    width: 800px; 
+    margin:10px auto;
+    background-color: transparent;
+ /*this will be  the distance  of the top of the section to the .container wrapper */ 
+    padding:5px ;
+    color:white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
+    
+    width:400px;
+    margin:80px auto 15px auto;
+    padding-top:40px ;
+    color :rgb(255, 60, 0);
+    font-size: medium;
+    text-align: center;
+
+    
+   
+
+}
+
+
+
